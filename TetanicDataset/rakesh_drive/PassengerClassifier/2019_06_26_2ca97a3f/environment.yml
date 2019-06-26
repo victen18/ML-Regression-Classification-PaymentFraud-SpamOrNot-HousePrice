@@ -1,0 +1,8 @@
+name: bentoml-custom-conda-env
+channels:
+- defaults
+dependencies:
+- python=3.6.6
+- pip:
+  - bentoml==0.1.1
+  - scikit-learn
